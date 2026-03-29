@@ -19,19 +19,19 @@ async def on_message(message):
     print(f"{user_message}")
     if not user_message.startswith(tuple(commands)):
         await message.channel.send("Command Invalid.")  
-    elif user_message.startswith('w') and not user_message.startswith('l') and not user_message.startswith('q'):
+    elif user_message.startswith('w')
         pydirectinput.keyDown('up')
         await asyncio.sleep(0.3)
         pydirectinput.keyUp('up')
-    elif user_message.startswith('a') and not user_message.startswith('l') and not user_message.startswith('q'):
+    elif user_message.startswith('a')
         pydirectinput.keyDown('left')
         await asyncio.sleep(0.3)
         pydirectinput.keyUp('left')
-    elif user_message.startswith('s') and not user_message.startswith('l') and not user_message.startswith('q'):
+    elif user_message.startswith('s')
         pydirectinput.keyDown('down')
         await asyncio.sleep(0.3)
         pydirectinput.keyUp('down')
-    elif user_message.startswith('d') and not user_message.startswith('l') and not user_message.startswith('q'):
+    elif user_message.startswith('d')
         pydirectinput.keyDown('right')
         await asyncio.sleep(0.3)
         pydirectinput.keyUp('right')
