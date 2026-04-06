@@ -1,6 +1,6 @@
 Heres how to use it.
 
-So first, open up cmd, make sure its a regular command prompt. Then, you need to run these 2 commands, pip install discord.py and pip install pydirectinput
+So first, make sure you have python installed and also have pip, which usually comes standard in the latest python versions, open up cmd, make sure its a regular command prompt. Then, you need to run these 2 commands, pip install discord.py and pip install pydirectinput
 once that is done, open up the script in a code editor of your choice.
 Scroll down to the client.run thing and replace the YOUR TOKEN HERE thing in the quotes with your bots token, which is found in the overview section in the bot subsection thingy
 now the provided code here shows an example for a way to have chat play Undertale/Deltarune. Now if thats your goal, or you are trying to play any other game that requires the arrow keys + z x and c, congrats thats all you needed to do.
