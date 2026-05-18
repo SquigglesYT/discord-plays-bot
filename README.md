@@ -9,6 +9,6 @@ now the provided code here shows an example for a way to have chat play Undertal
 
 if you arent, set up the controls to your liking. The commands must be in the commands list, and also reflected in the tree of elifs that i made because im stupid.
 
-the asyncio.sleep() thing acts as your delay. keys like shift and space work by just saying shift or space or whatever the key is.
+the await asyncio.sleep() thing acts as the time a specific key is held down. keys like shift and space work by just saying shift or space or whatever the key is.
 
 that should be all i need to say. consult google with questions if you need to.
